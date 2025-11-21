@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+}
+
+@keyframes clickEffect {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.3) rotate(15deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+.animate-click {
+  animation: clickEffect 0.5s ease-out;
+}
+
+.blurred {
+  filter: blur(4px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.video-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;          /* keeps the video behind everything */
+  overflow: hidden;
+}
+
+.video-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* fills the screen without distortion */
+}
+
+/* Ensure all page content stays on top */
+.app-content {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  overflow: auto;
+}
