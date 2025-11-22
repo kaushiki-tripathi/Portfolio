@@ -8,7 +8,7 @@
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ## 🚀 Live Demo
-**[Click here to view the Live Portfolio](https://INSERT-YOUR-VERCEL-LINK-HERE.app)**
+**[Click here to view the Live Portfolio](https://kaushiki-tripathi.vercel.app/)**
 
 ---
 
