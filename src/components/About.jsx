@@ -13,7 +13,8 @@ const About = () => {
       <div className="w-full md:w-1/3 p-6 md:p-8 bg-gray-800/50 flex flex-col items-center text-center">
         {/* Profile Pic: Smaller on mobile (w-32/h-32), original on desktop (md:w-48/h-48) */}
         <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-green-500/20 flex items-center justify-center border-4 border-green-500 transition-all duration-300">
-          <img src={profilePic} className="w-28 h-28 md:w-44 md:h-44 rounded-full object-cover transition-all duration-300" alt="Kaushiki Tripathi" />
+          <img src={profilePic} className="w-28 h-28 md:w-44 md:h-44 rounded-full object-cover transition-all duration-300" alt="Kaushiki Tripathi
+          " />
         </div>
         
         {/* Text sizes reduced for mobile, kept large for desktop */}

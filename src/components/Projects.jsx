@@ -30,13 +30,11 @@ function PageTransition({ children, direction = "right" }) {
 
 const projectData = [
   {
-    title: "RailShield",
-    status: "Ongoing",
-    images: "/rail-shield.png",
+    title: "ChatStream",
+    images: "/",
     solution:
-      "RailShield is a real-time emergency response system I am building to enhance passenger safety. The core feature is its ability to function without an internet connection, allowing passengers to send critical alerts in under 5 seconds using SMS. The system is engineered for high reliability and speed, capable of handling over 1,000 concurrent messages, making it 60% faster than manual reporting.",
-    tech: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB"],
-    githubLink: "https://github.com/kaushiki-tripathi/Rail-Shield",
+      "ChatStream is a real-time messaging application engineered using the MERN Stack and Socket.IO that utilizes WebSockets in the backend. It supports both individual and group chat functionalities with admin features like renaming the chat, add & remove members along with full user authentication and profile management. ",
+    tech: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Socket.IO"],
   },
   {
     title: "GreenEarth (E‑Commerce)",
