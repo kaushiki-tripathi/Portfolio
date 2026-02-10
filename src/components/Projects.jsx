@@ -31,10 +31,11 @@ function PageTransition({ children, direction = "right" }) {
 const projectData = [
   {
     title: "ChatStream",
-    images: "/",
+    images: "/chatstream.jpg",
     solution:
       "ChatStream is a real-time messaging application engineered using the MERN Stack and Socket.IO that utilizes WebSockets in the backend. It supports both individual and group chat functionalities with admin features like renaming the chat, add & remove members along with full user authentication and profile management. ",
     tech: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Socket.IO"],
+    githubLink: "https://github.com/kaushiki-tripathi/ChatStream"
   },
   {
     title: "GreenEarth (E‑Commerce)",
@@ -44,14 +45,7 @@ const projectData = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     liveLink: "https://greenearth1.vercel.app/",
   },
-  {
-    title: "Recipe Generator",
-    images: "/recipe-generator.png", // Make sure this file is in public folder
-    solution:
-      "Recipe Generator is a smart web app that lets you pick ingredients from a categorized pantry, instantly matches them to recipes, ranks results by match score, and filters by dietary needs. It shows detailed recipe cards with serving size, nutrition, ingredient list, and steps, all in a fully responsive Tailwind‑styled UI.",
-    tech: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB"],
-    githubLink: "https://github.com/kaushiki-tripathi/Recipe-Generator",
-  },
+  
 ];
 
 const sliderVariants = {
@@ -153,17 +147,19 @@ const Projects = () => {
                           <FiArrowRight className="w-4 h-4" />
                         </motion.a>
                       )}
-                      <motion.a
-                        href={projectData[index].githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                      >
-                        <FiGithub className="w-4 h-4" />
-                        Code
-                      </motion.a>
+                      {projectData[index].githubLink && (
+                        <motion.a
+                          href={projectData[index].githubLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm"
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                        >
+                          <FiGithub className="w-4 h-4" />
+                          Code
+                        </motion.a>
+                      )}
                     </div>
                   </div>
                 </div>
