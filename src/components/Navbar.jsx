@@ -1,13 +1,14 @@
 // src/components/Navbar.jsx
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FiHome, FiUser, FiFolder } from "react-icons/fi";
+import { FiHome, FiUser, FiFolder, FiCode } from "react-icons/fi";
 import { FaEnvelope, FaGraduationCap } from "react-icons/fa";
 
 const navItems = [
   { to: "/home", icon: <FiHome size={24} />, label: "Home" },
   { to: "/about", icon: <FiUser size={24} />, label: "About" },
   { to: "/education", icon: <FaGraduationCap size={24} />, label: "Education" },
+  { to: "/skills", icon: <FiCode size={24} />, label: "Skills" },
   { to: "/projects", icon: <FiFolder size={24} />, label: "Projects" },
   { to: "/contacts", icon: <FaEnvelope size={24} />, label: "Contacts" },
 ];
