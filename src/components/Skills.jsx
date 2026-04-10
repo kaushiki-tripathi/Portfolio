@@ -3,6 +3,7 @@ import {FaReact,FaNode,FaJsSquare,FaGitAlt,FaDatabase,FaHtml5,FaCss3Alt,FaGithub
 } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiExpress, SiPostman, SiCplusplus, SiVercel, } from "react-icons/si";
 import { FiGlobe } from "react-icons/fi";
+import { VscCode } from "react-icons/vsc";
 
 const Skills = () => {
   const skills = [
@@ -21,6 +22,7 @@ const Skills = () => {
     { name: "Github", icon: <FaGithub size={40} />, color: "text-gray-400" },
     { name: "Postman", icon: <SiPostman size={40} />, color: "text-orange-400" },
     { name: "Vercel", icon: <SiVercel size={40} />, color: "text-gray-200" },
+    { name: "VS Code", icon: <VscCode size={40} />, color: "text-blue-400" },
   ];
 
 

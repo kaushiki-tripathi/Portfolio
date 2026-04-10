@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiHome, FiUser, FiFolder, FiCode } from "react-icons/fi";
-import { FaEnvelope, FaGraduationCap } from "react-icons/fa";
+import { FaEnvelope, FaGraduationCap, FaTrophy } from "react-icons/fa";
 
 const navItems = [
   { to: "/home", icon: <FiHome size={24} />, label: "Home" },
@@ -11,6 +11,7 @@ const navItems = [
   { to: "/skills", icon: <FiCode size={24} />, label: "Skills" },
   { to: "/projects", icon: <FiFolder size={24} />, label: "Projects" },
   { to: "/contacts", icon: <FaEnvelope size={24} />, label: "Contacts" },
+  
 ];
 
 const Navbar = () => {

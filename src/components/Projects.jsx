@@ -31,7 +31,7 @@ function PageTransition({ children, direction = "right" }) {
 const projectData = [
   {
     title: "ChatStream",
-    images: "/chatstream.jpg",
+    images: "/chatstream.png",
     solution:
       "ChatStream is a real-time messaging application engineered using the MERN Stack and Socket.IO that utilizes WebSockets in the backend. It supports both individual and group chat functionalities with admin features like renaming the chat, add & remove members along with full user authentication and profile management. ",
     tech: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Socket.IO"],
@@ -90,7 +90,7 @@ const Projects = () => {
             >
               <h1 className="text-4xl md:text-3xl text-center font-bold text-white mb-8">
                 <span className="border-b-2 border-green-500/50 pb-1">
-                  My Projects
+                  Projects
                 </span>
               </h1>
 

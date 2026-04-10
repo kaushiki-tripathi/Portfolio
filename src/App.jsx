@@ -7,7 +7,6 @@ import Home from './components/Home.jsx';
 import Projects from './components/Projects.jsx';
 import Contacts from './components/contacts.jsx';
 import About from './components/About.jsx';
-import Achievements from './components/Achievements.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Education from './components/Education.jsx';
 import Skills from './components/Skills.jsx';
@@ -80,7 +79,6 @@ function AnimatedRoutes() {
         <Route path="/projects" element={<PageTransition direction={direction}><Projects /></PageTransition>} />
         <Route path="/portfolio" element={<PageTransition direction={direction}><Portfolio /></PageTransition>} />
         <Route path="/skills" element={<PageTransition direction={direction}><Skills /></PageTransition>} />
-        <Route path="/achievements" element={<PageTransition direction={direction}><Achievements /></PageTransition>} />
         <Route path="/education" element={<PageTransition direction={direction}><Education /></PageTransition>} />
         <Route path="/contacts" element={<PageTransition direction={direction}><Contacts /></PageTransition>} />
         <Route path="*" element={<PageTransition direction="right"><Home /></PageTransition>} />
