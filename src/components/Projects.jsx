@@ -45,6 +45,15 @@ const projectData = [
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     liveLink: "https://greenearth1.vercel.app/",
   },
+  {
+    title: "Authentication System (Backend)",
+    images: "/authentication.png",
+    solution: "A secure backend authentication system built with Node.js, Express, and MongoDB. Uses JWT access & refresh tokens with role-based access control.",
+    tech: ["Node.js", "Express.js", "MongoDB", "JWT", "bcrypt", "Joi", "cookie-parser", "express-rate-limit"],
+    githubLink: "https://github.com/kaushiki-tripathi/Authentication_System_Backend"
+
+
+  }
   
 ];
 

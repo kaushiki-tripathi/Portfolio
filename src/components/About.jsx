@@ -40,7 +40,7 @@ const About = () => {
           <FaDownload className="w-5 h-5" />
           Download CV
         </a>
-        <p className="text-xs text-gray-500 mt-auto pt-8">© 2025 Kaushiki Tripathi. All rights reserved.</p>
+        <p className="text-xs text-gray-500 mt-auto pt-8">© 2026 Kaushiki Tripathi. All rights reserved.</p>
       </div>
 
       {/* Right Panel (Details) */}
@@ -80,7 +80,7 @@ const About = () => {
             <div>
               <h3 className="text-lg md:text-xl font-semibold text-white transition-all duration-300">Problem Solving</h3>
               <p className="text-sm md:text-base text-gray-400 mt-2 transition-all duration-300">
-                Applying a strong background in DSA. (5-Star HackerRank, 200+ LeetCode problems).
+                Applying a strong background in DSA. (5-Star HackerRank, 230+ LeetCode problems).
               </p>
             </div>
           </div>

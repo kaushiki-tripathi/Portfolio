@@ -1,13 +1,14 @@
 import React from "react";
-import {FaReact,FaNode,FaJsSquare,FaGitAlt,FaDatabase,FaHtml5,FaCss3Alt,FaGithub,
+import {FaReact,FaNode,FaJsSquare,FaGitAlt,FaDatabase,FaHtml5,FaCss3Alt,FaGithub, FaDocker, FaJava
 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress, SiPostman, SiCplusplus, SiVercel, } from "react-icons/si";
+import { SiMongodb, SiTailwindcss, SiExpress, SiPostman, SiCplusplus,  SiVercel, SiSocketdotio } from "react-icons/si";
 import { FiGlobe } from "react-icons/fi";
 import { VscCode } from "react-icons/vsc";
 
 const Skills = () => {
   const skills = [
     { name: "Cpp", icon: <SiCplusplus size={40} />,  color: "text-yellow-400" },
+    { name: "Java", icon: <FaJava size={40} />,  color: "text-red-500" },
     { name: "HTML5", icon: <FaHtml5 size={40} />, color: "text-orange-500" },
     { name: "CSS3", icon: <FaCss3Alt size={40} />,  color: "text-blue-500" },
     { name: "JavaScript", icon: <FaJsSquare size={40} />, color: "text-yellow-400" },
@@ -16,8 +17,10 @@ const Skills = () => {
     { name: "Node.js", icon: <FaNode size={40} />, color: "text-green-400" },
     { name: "Express", icon: <SiExpress size={40} />, color: "text-gray-300" },
     { name: "REST APIs", icon: <FiGlobe size={40} />, color: "text-blue-400" },
+    { name: "Socket.IO", icon: <SiSocketdotio size={40} />, color: "text-gray-200" },
     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "text-green-600" },
     { name: "SQL", icon: <FaDatabase size={40} />, color: "text-red-500" },
+    { name: "Docker", icon: <FaDocker size={40} />, color: "text-blue-600" },
     { name: "Git", icon: <FaGitAlt size={40} />, color: "text-orange-600" },
     { name: "Github", icon: <FaGithub size={40} />, color: "text-gray-400" },
     { name: "Postman", icon: <SiPostman size={40} />, color: "text-orange-400" },

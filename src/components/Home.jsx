@@ -9,7 +9,7 @@ import { SiLeetcode } from "react-icons/si";
 import { FiCode } from "react-icons/fi";
 
 /* ----- Typewriter hook (unchanged) ----- */
-const useTypewriter = (roles, delay = 150, pause = 2000) => {
+const useTypewriter = (roles, delay = 150, pause = 1000) => {
   const [text, setText] = useState("");
   const [roleIndex, setRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -116,12 +116,12 @@ const Home = () => {
           <div className="flex items-center gap-2 sm:gap-3">
             <FiCode className="w-5 h-5 sm:w-6 sm:h-6 text-green-400" />
             <span className="text-white font-semibold text-sm sm:text-base">
-              200+ Problems Solved
+              230+ Problems Solved
               <span className="text-gray-400 font-normal"> (LeetCode)</span>
             </span>
           </div>
           <div className="flex items-center gap-2 sm:gap-3">
-            <span className="text-xl sm:text-2xl font-bold text-green-400">2</span>
+            <span className="text-xl sm:text-2xl font-bold text-green-400">3</span>
             <span className="text-white font-semibold text-sm sm:text-base">
               Key Projects
               <span className="text-gray-400 font-normal"> (MERN)</span>
