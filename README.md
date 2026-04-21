@@ -1,4 +1,4 @@
-# ⚡ Kaushiki Tripathi | Developer Portfolio
+#  Kaushiki Tripathi | Portfolio
 
 > A high-performance, interactive portfolio website crafted to showcase my journey as an IT undergraduate and Full-Stack Developer. Built with a focus on modern UI principles, smooth animations, and responsive design.
 
@@ -11,7 +11,10 @@
 **[Click here to view the Live Portfolio](https://INSERT-YOUR-VERCEL-LINK-HERE.app)**
 
 ---
-
+## Screenshots
+- **Home Page**
+![image](https://github.com/kaushiki-tripathi/Portfolio/blob/0eace331168d2f4d827656cc71376f1ac3478ad4/Screenshot%20(706).png)
+---
 ## 💡 Key Features
 
 * **Immersive UI Experience:** Designed with a dark-mode aesthetic and neon green accents to reflect a modern developer identity.
