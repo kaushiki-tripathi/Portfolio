@@ -46,6 +46,15 @@ const projectData = [
     liveLink: "https://greenearth1.vercel.app/",
   },
   {
+    title: "Summio AI",
+    images: "/summio.png",
+    solution:
+      "Summio AI is an AI-powered tool that extracts YouTube video transcripts and transforms them into actionable bullet points, structured study notes, and a 7-day LinkedIn posting plan — all in seconds. It helps students, professionals, and LinkedIn creators get maximum value by transforming videos into smart notes and linkedin posts.",
+    tech: ["Next.js", "TailwindCSS", "Grok API", "Gemini API "],
+    githubLink: "https://github.com/kaushiki-tripathi/Summio-AI",
+    liveLink: "https://summio-ai.vercel.app/"
+  },
+  {
     title: "Authentication System (Backend)",
     images: "/authentication.png",
     solution: "A secure backend authentication system built with Node.js, Express, and MongoDB. Uses JWT access & refresh tokens with role-based access control.",
