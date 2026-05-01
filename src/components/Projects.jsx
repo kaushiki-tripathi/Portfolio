@@ -30,6 +30,15 @@ function PageTransition({ children, direction = "right" }) {
 
 const projectData = [
   {
+    title: "ChatDocs",
+    images: "/ChatPage.png",
+    solution:
+      "ChatDocs is an AI-powered web application that lets users upload PDF documents and have intelligent conversations with them. Ask questions and get instant accurate answers with page references. ",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Grok API", "Gemini API", "RAG Pipeline","VectorDB (ChromaDB)","Embeddings", "Docker"],
+    githubLink: "https://github.com/kaushiki-tripathi/ChatDocs",
+    liveLink: "https://chatdocs-ai.vercel.app"
+  },
+  {
     title: "ChatStream",
     images: "/chatstream.png",
     solution:

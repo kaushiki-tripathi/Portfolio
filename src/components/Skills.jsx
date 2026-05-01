@@ -1,44 +1,111 @@
 import React from "react";
-import {FaReact,FaNode,FaJsSquare,FaGitAlt,FaDatabase,FaHtml5,FaCss3Alt,FaGithub, FaDocker, FaJava
+import {
+  FaReact,
+  FaNode,
+  FaJsSquare,
+  FaGitAlt,
+  FaHtml5,
+  FaCss3Alt,
+  FaGithub,
+  FaDocker,
+  FaJava,
+  FaDatabase,
+  FaSearch,
 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress, SiPostman, SiCplusplus,  SiVercel, SiSocketdotio } from "react-icons/si";
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiExpress,
+  SiPostman,
+  SiCplusplus,
+  SiVercel,
+  SiSocketdotio,
+  SiOpenai,
+  SiDatabricks,
+  SiRailway,
+} from "react-icons/si";
 import { FiGlobe } from "react-icons/fi";
 import { VscCode } from "react-icons/vsc";
+import { TbVector } from "react-icons/tb";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 const Skills = () => {
   const skills = [
-    { name: "Cpp", icon: <SiCplusplus size={40} />,  color: "text-yellow-400" },
-    { name: "Java", icon: <FaJava size={40} />,  color: "text-red-500" },
+    { name: "Cpp", icon: <SiCplusplus size={40} />, color: "text-yellow-400" },
+    { name: "Java", icon: <FaJava size={40} />, color: "text-red-500" },
     { name: "HTML5", icon: <FaHtml5 size={40} />, color: "text-orange-500" },
-    { name: "CSS3", icon: <FaCss3Alt size={40} />,  color: "text-blue-500" },
-    { name: "JavaScript", icon: <FaJsSquare size={40} />, color: "text-yellow-400" },
-    { name: "Tailwind CSS", icon: <SiTailwindcss size={40} />,  color: "text-cyan-500" },
+    { name: "CSS3", icon: <FaCss3Alt size={40} />, color: "text-blue-500" },
+    {
+      name: "JavaScript",
+      icon: <FaJsSquare size={40} />,
+      color: "text-yellow-400",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: <SiTailwindcss size={40} />,
+      color: "text-cyan-500",
+    },
     { name: "React", icon: <FaReact size={40} />, color: "text-cyan-400" },
     { name: "Node.js", icon: <FaNode size={40} />, color: "text-green-400" },
     { name: "Express", icon: <SiExpress size={40} />, color: "text-gray-300" },
     { name: "REST APIs", icon: <FiGlobe size={40} />, color: "text-blue-400" },
-    { name: "Socket.IO", icon: <SiSocketdotio size={40} />, color: "text-gray-200" },
+    {
+      name: "Socket.IO",
+      icon: <SiSocketdotio size={40} />,
+      color: "text-gray-200",
+    },
     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "text-green-600" },
     { name: "SQL", icon: <FaDatabase size={40} />, color: "text-red-500" },
     { name: "Docker", icon: <FaDocker size={40} />, color: "text-blue-600" },
     { name: "Git", icon: <FaGitAlt size={40} />, color: "text-orange-600" },
     { name: "Github", icon: <FaGithub size={40} />, color: "text-gray-400" },
-    { name: "Postman", icon: <SiPostman size={40} />, color: "text-orange-400" },
+    {
+      name: "Postman",
+      icon: <SiPostman size={40} />,
+      color: "text-orange-400",
+    },
     { name: "Vercel", icon: <SiVercel size={40} />, color: "text-gray-200" },
+    { name: "Railway", icon: <SiRailway size={40} />, color: "text-purple-300" },
     { name: "VS Code", icon: <VscCode size={40} />, color: "text-blue-400" },
+    {
+      name: "RAG Pipeline",
+      icon: <GiArtificialIntelligence size={40} />,
+      color: "text-purple-400",
+    },
+    {
+      name: "ChromaDB",
+      icon: <FaDatabase size={40} />,
+      color: "text-green-400",
+    },
+    {
+      name: "Vector Database",
+      icon: <TbVector size={40} />,
+      color: "text-pink-400",
+    },
+    {
+      name: "Embeddings",
+      icon: <SiDatabricks size={40} />,
+      color: "text-orange-400",
+    },
+    {
+      name: "LLM APIs",
+      icon: <SiOpenai size={40} />,
+      color: "text-emerald-400",
+    },
+    {
+      name: "Semantic Search",
+      icon: <FaSearch size={40} />,
+      color: "text-yellow-400",
+    },
   ];
-
 
   return (
     <div className="w-full max-w-5xl bg-gray-900/80 backdrop-blur-md rounded-2xl shadow-xl flex flex-col overflow-hidden mt-24 md:mt-0 mx-4 md:mx-auto transition-all duration-300 p-8 md:p-12 ">
       {/* Header */}
       <div className="text-center mb-12 w-full">
         <h1 className="text-4xl md:text-3xl text-center font-bold text-white mb-1">
-      <span className="border-b-2 border-green-500/50 pb-1">
-                  Skills
-                </span>
+          <span className="border-b-2 border-green-500/50 pb-1">Skills</span>
         </h1>
-        
       </div>
 
       {/* Skills Grid */}
@@ -49,7 +116,9 @@ const Skills = () => {
             className="group bg-gray-800 rounded-lg p-4 text-center hover:bg-gray-700 transition-colors duration-200 border border-gray-700 hover:border-green-500/30"
           >
             {/* Icon */}
-            <div className={`${skill.color} mb-3 flex justify-center transition-transform group-hover:scale-110 duration-200`}>
+            <div
+              className={`${skill.color} mb-3 flex justify-center transition-transform group-hover:scale-110 duration-200`}
+            >
               {skill.icon}
             </div>
 
@@ -57,7 +126,6 @@ const Skills = () => {
             <h3 className="text-xs md:text-sm font-semibold text-white mb-2 truncate">
               {skill.name}
             </h3>
-
           </div>
         ))}
       </div>
