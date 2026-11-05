@@ -61,8 +61,7 @@ const Home = () => {
         </h1>
 
         <p className="text-gray-300 mt-4 sm:mt-6 text-base sm:text-lg max-w-2xl leading-relaxed">
-          Welcome to my portfolio. I’m a passionate full‑stack developer specializing in the MERN stack. I love turning ideas into real‑world solutions and creating impactful digital experiences.<br />
-          Beyond coding, I’m fascinated by AI and machine learning—technologies that can make web apps smarter and more intuitive.
+          Welcome to my portfolio. <br></br> Hi, I'm Kaushiki! A Software Developer passionate about building meaningful digital experiences. I enjoy turning ideas into functional web applications, solving problems through code, and exploring how technology can make everyday experiences better.
         </p>
 
         <div className="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 items-center justify-center md:justify-start w-full">
@@ -121,7 +120,7 @@ const Home = () => {
             </span>
           </div>
           <div className="flex items-center gap-2 sm:gap-3">
-            <span className="text-xl sm:text-xl font-bold text-green-400">5</span>
+            <span className="text-xl sm:text-xl font-bold text-green-400">6</span>
             <span className="text-white font-semibold text-sm sm:text-base">
               Key Projects
             </span>
