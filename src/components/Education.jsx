@@ -31,8 +31,8 @@ const educationData = [
     id: 1,
     degree: "Bachelor of Technology, IT",
     institution: "Pranveer Singh Institute Of Technology, Kanpur",
-    dates: "2022 - 2026 (Pursuing)",
-    score: "Percentage: 74 %",
+    dates: "2022 - 2026",
+    score: "CGPA: 7.48",
     position: "top",
   },
   {
@@ -40,7 +40,7 @@ const educationData = [
     degree: "Intermediate (ISC)",
     institution: "St. Thomas School, Kanpur",
     dates: "2021 - 2022",
-    score: "Percentage: 73 %",
+    score: "Percentage: 75.5 %",
     position: "bottom",
   },
   {
@@ -48,7 +48,7 @@ const educationData = [
     degree: "High School (ICSE)",
     institution: "St. Thomas School, Kanpur",
     dates: "2019 - 2020",
-    score: "Percentage: 77.5 %",
+    score: "Percentage: 79.0 %",
     position: "top",
   },
 ];
