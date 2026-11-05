@@ -30,6 +30,17 @@ function PageTransition({ children, direction = "right" }) {
 
 const projectData = [
   {
+  title: "HabitFlow",
+  images: "/habitflow.png",
+  solution:
+    "HabitFlow is a full-stack habit tracking and productivity platform that helps users manage daily routines, track progress, monitor streaks, and analyze consistency through interactive dashboards and monthly activity heatmaps.",
+  tech: [
+    "React.js","Node.js","Express.js","MongoDB","Tailwind CSS","Recharts","Framer Motion","JWT Authentication","Google OAuth 2.0"
+  ],
+  githubLink: "https://github.com/kaushiki-tripathi/HabitFlow",
+  liveLink: "https://habit-flow-track.vercel.app/"
+},
+  {
     title: "ChatDocs",
     images: "/ChatPage.png",
     solution:
