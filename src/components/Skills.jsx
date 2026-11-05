@@ -19,20 +19,21 @@ import {
   SiPostman,
   SiCplusplus,
   SiVercel,
-  SiSocketdotio,
   SiOpenai,
   SiDatabricks,
-  SiRailway,
 } from "react-icons/si";
 import { FiGlobe } from "react-icons/fi";
 import { VscCode } from "react-icons/vsc";
 import { TbVector } from "react-icons/tb";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { SiRender } from "react-icons/si";
+import { FaBrain, FaCode, FaCubes, FaLaptopCode } from "react-icons/fa";
+import { MdOutlineComputer } from "react-icons/md";
 
 const Skills = () => {
   const skills = [
     { name: "Cpp", icon: <SiCplusplus size={40} />, color: "text-yellow-400" },
-    { name: "Java", icon: <FaJava size={40} />, color: "text-red-500" },
+    { name: "Java (Basic)", icon: <FaJava size={40} />, color: "text-red-500" },
     { name: "HTML5", icon: <FaHtml5 size={40} />, color: "text-orange-500" },
     { name: "CSS3", icon: <FaCss3Alt size={40} />, color: "text-blue-500" },
     {
@@ -49,13 +50,21 @@ const Skills = () => {
     { name: "Node.js", icon: <FaNode size={40} />, color: "text-green-400" },
     { name: "Express", icon: <SiExpress size={40} />, color: "text-gray-300" },
     { name: "REST APIs", icon: <FiGlobe size={40} />, color: "text-blue-400" },
-    {
-      name: "Socket.IO",
-      icon: <SiSocketdotio size={40} />,
-      color: "text-gray-200",
-    },
     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "text-green-600" },
     { name: "SQL", icon: <FaDatabase size={40} />, color: "text-red-500" },
+    { name: "DSA", icon: <FaCode size={40} />, color: "text-blue-400" },
+    { name: "DBMS", icon: <FaDatabase size={40} />, color: "text-cyan-400" },
+    { name: "OOPs", icon: <FaCubes size={40} />, color: "text-orange-400" },
+    {
+      name: "Operating Systems",
+      icon: <MdOutlineComputer size={40} />,
+      color: "text-yellow-400",
+    },
+    {
+      name: "Software Engineering",
+      icon: <FaLaptopCode size={40} />,
+      color: "text-indigo-400",
+    },
     { name: "Docker", icon: <FaDocker size={40} />, color: "text-blue-600" },
     { name: "Git", icon: <FaGitAlt size={40} />, color: "text-orange-600" },
     { name: "Github", icon: <FaGithub size={40} />, color: "text-gray-400" },
@@ -65,17 +74,17 @@ const Skills = () => {
       color: "text-orange-400",
     },
     { name: "Vercel", icon: <SiVercel size={40} />, color: "text-gray-200" },
-    { name: "Railway", icon: <SiRailway size={40} />, color: "text-purple-300" },
+    { name: "Render", icon: <SiRender size={40} />, color: "text-purple-400" },
     { name: "VS Code", icon: <VscCode size={40} />, color: "text-blue-400" },
+    {
+      name: "Generative AI",
+      icon: <FaBrain size={40} />,
+      color: "text-pink-400",
+    },
     {
       name: "RAG Pipeline",
       icon: <GiArtificialIntelligence size={40} />,
       color: "text-purple-400",
-    },
-    {
-      name: "ChromaDB",
-      icon: <FaDatabase size={40} />,
-      color: "text-green-400",
     },
     {
       name: "Vector Database",
