@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Route, Routes, BrowserRouter, useLocation } from 'react-router-dom';
+import { Route, Routes, BrowserRouter, useLocation, Navigate } from 'react-router-dom';
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx'; 
@@ -73,7 +73,7 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait" custom={direction}>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<PageTransition direction={direction}><Home /></PageTransition>} />
+        <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<PageTransition direction={direction}><Home /></PageTransition>} />
         <Route path="/about" element={<PageTransition direction={direction}><About /></PageTransition>} />
         <Route path="/projects" element={<PageTransition direction={direction}><Projects /></PageTransition>} />
